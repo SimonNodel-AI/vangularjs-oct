@@ -1,0 +1,26 @@
+html, body {
+    height:100%;
+    padding: 0px;
+    font-size: 100%;
+    font-family: 'HelveticaNeue', Helvetica, Arial, sans-serif;
+}
+
+#applicationHeader {
+    height: 100%;
+    color: #444;
+    background-color: #e6e6e6;
+    padding-top: 0.25rem;
+    padding-left: 1rem;
+    margin: 0;
+}
+
+#applicationdMainContent {
+    display: table-row;
+    height: 100%;
+}
+
+#topContainer {
+    display: table;
+    height: 100%;
+    width: 100%;
+}

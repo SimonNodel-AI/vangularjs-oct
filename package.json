@@ -1,0 +1,48 @@
+{
+  "name": "VanngularJSOct",
+  "version": "0.0.1",
+  "description": "Vancouver Angular Meetup October 2014",
+  "devDependencies": {
+      "express": "4.8.5",
+      "grunt": "0.4.5",
+      "grunt-contrib-copy": "0.5.0",
+      "grunt-contrib-concat": "0.5.0",
+      "grunt-contrib-uglify": "0.5.1",      
+      "grunt-contrib-jshint": "0.10.0",
+      "grunt-contrib-cssmin": "0.6.2",
+      "grunt-contrib-clean": "0.6.0",
+      "grunt-contrib-watch": "0.6.1",
+      "grunt-usemin": "2.3.0",
+      "grunt-karma": "0.8.3",
+      "grunt-html2js": "0.2.8",
+      "karma-coverage": "0.2.6",
+      "karma-jasmine": "~0.2.0",      
+      "karma-phantomjs-launcher": "0.1.4",
+      "phantomjs": "1.9.7-15",
+      "grunt-open": "0.2.3",
+      "matchdep": "0.3.0",
+      "grunt-ng-annotate": "0.3.2",
+      "grunt-express-server": "0.4.19",
+      "grunt-preprocess": "4.0.0",
+      "grunt-istanbul-coverage": "0.0.5"
+  },
+  "scripts": {
+    "test": "grunt build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SimonNodel-AI/vangularjs-oct.git"
+  },
+  "keywords": [
+    "angular",
+    "i18n",
+    "directives",
+	"vancouver",
+    "meetup"
+  ],
+  "author": "Simon Nodel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SimonNodel-AI/vangularjs-oct/issues"
+  }
+}
