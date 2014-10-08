@@ -50,11 +50,11 @@ h2 {
     cursor: not-allowed;
 }
 
-.clickable-icon {
+.sn-clickable-icon {
     color: #444;
 }
 
-.clickable-icon:hover {
+.sn-clickable-icon:hover {
     cursor: pointer;
     color: #0083d7;
 }
