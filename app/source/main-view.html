@@ -10,7 +10,8 @@
     <div class="row">
        <div class="well">
            <h2>fa-checkbox</h2>
-           <span><fa-checkbox checked="mainController.testChecked" disabled="mainController.checkboxDisabledState"/></span>
+           <div><fa-checkbox checked="mainController.testChecked" disabled="mainController.checkboxDisabledState"/></div>
+           <div>Bound checked value: {{mainController.testChecked}}</div>
            <button style="display: inline-block" type="button"
                    ng-click="mainController.checkboxDisabledState = !mainController.checkboxDisabledState">Toggle disabled State</button>
            <span>Checkbox disable state: {{mainController.checkboxDisabledState}}</span>

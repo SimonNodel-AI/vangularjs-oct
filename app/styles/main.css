@@ -45,3 +45,16 @@ h2 {
 .xlight-grey-color {
     color: #CCC;
 }
+
+.disabled-cursor {
+    cursor: not-allowed;
+}
+
+.clickable-icon {
+    color: #444;
+}
+
+.clickable-icon:hover {
+    cursor: pointer;
+    color: #0083d7;
+}
