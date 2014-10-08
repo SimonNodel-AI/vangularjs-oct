@@ -15,7 +15,7 @@
                 '<div ng-show="showSpinner" class="sn-spinner-container"></div>' +
                 '<div ng-hide="showSpinner" ng-transclude></div>' +
                 '</div>',
-            link: function (scope, element, attrs) {
+            link: function () {
             }
         };
     });

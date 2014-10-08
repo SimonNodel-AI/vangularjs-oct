@@ -10,7 +10,7 @@
                 classesToAdd: '@',
                 classesToRemove: '@'
             },
-            link: function(scope, element){
+            link: function(){
 
             }
         };

@@ -6,7 +6,7 @@
     theModule.directive('killClickEvent', function () {
         return {
             restrict: 'A',
-            link: function (scope, element) {
+            link: function () {
 
             }
         };
