@@ -12,15 +12,36 @@ html, body {
     padding-top: 0.25rem;
     padding-left: 1rem;
     margin: 0;
+    margin-bottom: 1rem;
 }
 
 #applicationdMainContent {
-    display: table-row;
-    height: 100%;
+    margin: 2rem;
 }
 
 #topContainer {
     display: table;
     height: 100%;
     width: 100%;
+}
+
+h2 {
+    margin-top: 0px;
+}
+
+#clickContainer {
+    border: 1px solid darkblue;
+    width: 200px;
+    height: 100px;
+}
+
+#clickInnerContainer {
+    border: 1px solid darkgreen;
+    width: 100px;
+    height: 50px;
+    margin: auto auto;
+}
+
+.xlight-grey-color {
+    color: #CCC;
 }

@@ -8,6 +8,45 @@
 
 <div id="applicationdMainContent">
     <div class="row">
-       <h1>Hellow World</h1>
+       <div class="well">
+           <h2>fa-checkbox</h2>
+           <span><fa-checkbox checked="mainController.testChecked" disabled="mainController.checkboxDisabledState"/></span>
+           <button style="display: inline-block" type="button"
+                   ng-click="mainController.checkboxDisabledState = !mainController.checkboxDisabledState">Toggle disabled State</button>
+           <span>Checkbox disable state: {{mainController.checkboxDisabledState}}</span>
+       </div>
     </div>
+
+    <div class="row">
+        <div class="well">
+            <h2>kill-click-event</h2>
+            <div id="clickContainer" ng-click="mainController.clickCounter = mainController.clickCounter + 1">
+                <div id="clickInnerContainer"
+                     kill-click-event
+                     ng-click="mainController.clickCounter = mainController.clickCounter + 1">click me</div>
+            </div>
+            <span>Click Counter: {{mainController.clickCounter}}</span>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="well">
+            <h2>switch-classes-on-hover</h2>
+            <span>hover over the icon to change it's font-awesome classes: </span>
+            <i class="fa fa-2x fa-cloud" switch-classes-on-hover
+               classes-to-add="fa-cloud-download" classes-to-remove="fa-cloud"></i>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="well">
+            <h2>spinner</h2>
+            <button data-ng-click="mainController.showSpinner = !mainController.showSpinner">Toggle Spinner</button>
+            <br/>
+            <div sn-spinner="mainController.showSpinner"
+                 data-lines="12"
+                 style="padding-top:1rem;padding-left:1rem;"><span style="padding-left:0px;">transcluded content</span></div>
+        </div>
+    </div>
+
 </div>
