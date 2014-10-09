@@ -15,10 +15,10 @@ Getting started with directives, practical approach and tips.  This repo contain
 
 
 ### To run application:
-- In git bash type: ```git server```
+- In git bash type: ```grunt server```
 
 ### To run unit tests:
-- In git bash type: ```git karma```
+- In git bash type: ```grunt karma```
 
 ### To see coverage report:
 - In git bash type: ```git open:coverage```
