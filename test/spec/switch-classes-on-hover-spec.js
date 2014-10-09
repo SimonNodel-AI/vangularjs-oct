@@ -1,6 +1,6 @@
 'use strict';
 
-xdescribe('switchClassesOnHover', function () {
+describe('switchClassesOnHover', function () {
     var testContext;
 
     beforeEach(module('sn.switchClassesOnHover'));

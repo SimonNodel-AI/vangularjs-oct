@@ -1,13 +1,14 @@
 'use strict';
 
-xdescribe('killClickEvent', function () {
+describe('killClickEvent', function () {
     var testContext;
 
     beforeEach(module('sn.killClickEvent'));
 
     beforeEach(inject(function($rootScope, $compile) {
         testContext = this;
-        testContext.scope = $rootScope;
+        testContext.scope = $rootScope.$new();
+        testContext.rootScope = $rootScope;
         testContext.compile = $compile;
         testContext.scope.value = 1;
         testContext.scope.changeVarToFive = function() { testContext.scope.value = 5;};

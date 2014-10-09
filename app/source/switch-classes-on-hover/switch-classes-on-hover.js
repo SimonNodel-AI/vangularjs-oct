@@ -10,8 +10,15 @@
                 classesToAdd: '@',
                 classesToRemove: '@'
             },
-            link: function(){
-
+            link: function(scope, element){
+                element.on('mouseenter', function() {
+                    element.addClass(scope.classesToAdd);
+                    element.removeClass(scope.classesToRemove);
+                });
+                element.on('mouseleave', function() {
+                    element.addClass(scope.classesToRemove);
+                    element.removeClass(scope.classesToAdd);
+                });
             }
         };
     });
