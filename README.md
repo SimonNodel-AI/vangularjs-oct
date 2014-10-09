@@ -21,6 +21,6 @@ Getting started with directives, practical approach and tips.  This repo contain
 - In git bash type: ```grunt karma```
 
 ### To see coverage report:
-- In git bash type: ```git open:coverage```
+- In git bash type: ```grunt open:coverage```
   - **NOTE** if defaults don't work for you change the path in Gruntfile.js for open:coverage task on line 54
 
