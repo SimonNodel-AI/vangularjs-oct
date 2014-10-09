@@ -6,6 +6,8 @@ Getting started with directives, practical approach and tips.  This repo contain
 
 ### Installation:
 - Install git
+- Install node.js
+- Install grunt, in git bash type: ```npm install -g grunt-cli```
 - Install bower, in git bash type: ```npm install -g bower```
 - In git bash type: ```git clone https://github.com/SimonNodel-AI/vangularjs-oct.git```
 - Change directory to vangularjs-oct
