@@ -1,6 +1,6 @@
 'use strict';
 
-xdescribe('snSpinner', function() {
+describe('snSpinner', function() {
     var element, scope;
     beforeEach(module('sn.spinner'));
 
@@ -8,7 +8,7 @@ xdescribe('snSpinner', function() {
         scope = $rootScope.$new();
         scope.showSpinner = false;
 
-        var html = '<div sni-spinner="showSpinner"><span>some text</span></div>';
+        var html = '<div sn-spinner="showSpinner"><span>some text</span></div>';
         element = $compile(html)(scope);
         angular.element(document.body).append(element);
         scope.$digest();
